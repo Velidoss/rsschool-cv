@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta content="ie=edge" http-equiv="x-ua-compatible">
+    <link href="styles.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap" rel="stylesheet">
+    <title>Cv Velidoss</title>
+</head>
+<body>
+<header>
+    <div class="header__container">
+        <p class="header__sign">Velidoss CV</p>
+    </div>
+</header>
+<main>
+    <article class="cv-main">
+        <section class="cv-section">
+            <div class="cv-section__title">
+                <p>1. Name  :</p>
+            </div>
+            <div class="cv-section__info cv-section__info_name">
+                <h2 >Yurii Velidchenko</h2>
+                <div class="cv-section__img">
+                    <img alt="img" src="assets/face.jpg">
+                </div>
+            </div>
+        </section>
+        <section class="cv-section">
+            <div class="cv-section__title"><p>2. Contact Info :</p></div>
+            <div class="cv-section__info">
+                <p><strong>e-mail:&nbsp;</strong> velidoss11@gmail.com </p>
+                <p><strong>telegram:&nbsp;</strong> @Velidoss</p>
+            </div>
+        </section>
+        <section class="cv-section">
+            <div class="cv-section__title"><p>3. About me :</p></div>
+            <div class="cv-section__info">
+                <p>I am motivated, positive man, who wants to witness the world of programming. Today my goal is to master my
+                    javascript skills to became React developer. </p>
+                <p>When I was young I liked to play with lego - I always wanted to create new spaceship, rocket or robot. Now, this part of me takes me to programming. To play with code in order to create something ingenious. </p>
+                <p> Besides my full-time work, I code every day, read articles on habr,
+                    medium, and trying to learn something new.</p>
+            </div>
+        </section>
+        <section class="cv-section">
+            <div class="cv-section__title"><p>4. Skills :</p></div>
+            <div class="cv-section__info">
+                <p><strong>Languages:&nbsp;</strong>JavaScript, PHP, Html, CSS;</p>
+                <p><strong>Frameworks&libraries:&nbsp;</strong>JavaScript, PHP, Html, CSS;</p>
+                <p><strong>Version control:&nbsp; </strong>Git;</p>
+            </div>
+        </section>
+        <section class="cv-section">
+            <div class="cv-section__title"><p>5. Latest code examples :</p></div>
+            <div class="cv-section__info">
+        <pre class="cv-section__code">
+            export const moviesAPI={
+                queryMovies:(sortType, page)=>{
+                    return instance.get(`/discover/movie?&sort_by=${sortType}&page=${page}`).then(response=>{
+                        return response.data;
+                    });
+                },
+                queryPopularMovies:(page)=>{
+                    return instance.get(`/movie/popular?page=${page}`).then(response=>{
+                        return response.data;
+                    });
+                }
+            }
+        </pre>
+            </div>
+        </section>
+        <section class="cv-section">
+            <div class="cv-section__title"><p>6. Experience :</p></div>
+            <div class="cv-section__info">
+                <p>Today I have few pet-projects:</p>
+                <ul>
+                    <li><p><a href="//github.com/Velidoss/Task-manager" target="_blank">Todo-app</a> on React hooks, deployed on firebase . You can add
+                        todos, correct them, mark todo as "completed" or "cancelled".</p></li>
+                    <li><p><a href="//github.com/Velidoss/MovieApp" target="_blank">Movie app</a> created with React, Redux,with axios data access layer
+                        for TMDB API . Big library of films, tv-shows, actors, playlists, where user can create his own watchlists,
+                        rate movies and tv-shows.http://github.com - automatic!</p></li>
+                </ul>
+            </div>
+        </section>
+        <section class="cv-section">
+            <div class="cv-section__title"><p>7. Education :</p></div>
+            <div class="cv-section__info">
+                <p><strong>Education:&nbsp;</strong>National Aviation University</p>
+                <p><strong>Speciality:&nbsp;</strong>Maintenance technologies and airport technological equipment</p>
+            </div>
+        </section>
+        <section class="cv-section">
+            <div class="cv-section__title"><p>8. English :</p></div>
+            <div class="cv-section__info">
+                <p><strong>Level: &nbsp;</strong>Intermediate B1 .</p>
+                <p><strong>Experience:&nbsp;</strong> Business intercourse and working with english documentation.</p>
+            </div>
+        </section>
+    </article>
+</main>
+</body>
+</html>
