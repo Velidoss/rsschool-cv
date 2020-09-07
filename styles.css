@@ -76,6 +76,7 @@ main{
 }
 .cv-section__info li{
     padding-left: 30px;
+    margin-top: 15px;
     position: relative;
 }
 .cv-section__info li:before{
@@ -92,4 +93,23 @@ main{
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+}
+
+footer{
+    background: #2A2F4D;
+}
+
+.footer-container{
+    max-width: 1024px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-text{
+    color: aliceblue;
+    font-size: 20px;
+    font-weight: 700;
+    align-self: flex-end;
 }
