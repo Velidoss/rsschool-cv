@@ -30,7 +30,10 @@
     * [Movie app](https://github.com/Velidoss/MovieApp), created with React, Redux,with  axios data access layer for TMDB API . Big library of films, tv-shows, actors, playlists, where user can create his own watchlists, rate movies and tv-shows.http://github.com - automatic!
     
 7. Education:
-    Kiev Polytechnic Institute.
-    Currently, Ia self-taught programmer
-8. English : Intermediate B1 . 
+    * Kiev Polytechnic Institute. 
+        * Radioelectronics faculty
+    
+    Currently, Im a self-taught programmer.
+8. English : 
+    * Intermediate B1 . 
     Experience of business intercourse and working with english documentation.
