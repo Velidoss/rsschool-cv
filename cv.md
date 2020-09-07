@@ -5,8 +5,8 @@
 3. About me:
     I am motivated, positive man, who wants to witness the world of programming. Today my goal is to master my javascript skills to became React developer. Besides my work, I code every day, read articles on habr, medium, and trying to learn something new. 
 4. Skills:
-    * *languages:* JavaScript, PHP;
-    * *Frameworks&libraries:* React, Redux, axios, meterial UI
+    * *languages:* JavaScript, PHP, Html, CSS;
+    * *Frameworks&libraries:* React, Redux, axios, meterialUI
     * *Version control:* git
 
 5. Latest code examples:
